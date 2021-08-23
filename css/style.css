@@ -1,4 +1,7 @@
 /********* Geral *******/
+
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
 body {
     font-family: "Trebuchet Ms", Helvetica, sans-serif;
     background: #000 url(/img/background-chromatica.png) no-repeat top center;
@@ -23,7 +26,7 @@ body {
 form {
     position: relative;
     top: -200px;
-    left: 50px;
+    left: 80px;
 }
 
 form input, form ::placeholder {
@@ -33,16 +36,25 @@ form input, form ::placeholder {
 }
 
 input {
+    border: 1px solid #000;
     font-size: 1.2em;
     margin: 5px;
+    padding: 5px;
 }
 
 input[type="submit"] {
+    font-family: 'Rampart One', cursive;
+    border: 2px solid #FFF;
+    padding: 2px 12px;
     font-weight: bold;
     background-color: #f0b5c9;
     position: relative;
-    left: 100px;
+    left: 91px;
+    border-radius: 20px;
+}
 
-
+input[type="submit"]:hover {
+    background-color: #000;
+    color: #fff;
 }
     
