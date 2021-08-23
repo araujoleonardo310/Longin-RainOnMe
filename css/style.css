@@ -26,7 +26,7 @@ body {
 form {
     position: relative;
     top: -200px;
-    left: 80px;
+    left: 40px;
 }
 
 form input, form ::placeholder {
@@ -37,19 +37,25 @@ form input, form ::placeholder {
 
 input {
     border: 1px solid #000;
+    font-style: italic;
     font-size: 1.2em;
     margin: 5px;
     padding: 5px;
 }
 
+#email, #passaword {
+    width: 300px;
+}
+
 input[type="submit"] {
+    width: 100px;
     font-family: 'Rampart One', cursive;
     border: 2px solid #FFF;
     padding: 2px 12px;
     font-weight: bold;
     background-color: #f0b5c9;
     position: relative;
-    left: 91px;
+    left: 110px;
     border-radius: 20px;
 }
 
