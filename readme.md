@@ -47,7 +47,7 @@
 
 <img src="demost/chuva-form.gif" align=center><br><br>
 
-<h2 id="autor">Autor</h2><hr><br>
+<h2 id="autor">Autor</h2><br>
 
 <p> Meu nome é Leonardo, mas gosto de ser o Leo. Estou me graduando em Sistemas de Informação e meu foco é crescer na carreira de Web Developer (Desenvolvedor Web).</p><br>
 
